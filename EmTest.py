@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-classifier =load_model('/Users/user/OneDrive/Desktop/face-recognition/flask-realtime-face-detection-opencv-python/Emotion_little_vgg.h5')
+classifier =load_model('/Emotion_little_vgg.h5')
 
 class_labels = ['Angry','Happy','Neutral','Sad','Surprise']
 
